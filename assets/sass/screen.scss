@@ -15,17 +15,18 @@ body{
 	line-height:18px;
 	background: image-url('subtle_freckles.png');
 	border-top:9px solid #000;
+	padding:0 20px;
 }
 
 a{
 	text-decoration:none;
 	color:#0080FF;
 }
-a:hover{
-	color:#004080;
-}
 a:visited{
 	color:#3B7BCD;
+}
+a:hover{
+	color:#004080;
 }
 
 #hd, #bd, #ft{
@@ -38,6 +39,9 @@ a:visited{
 	font-weight:bold;
 	text-align:center;
 	color:#222;
+}
+#hd > h1 > span{
+	display:inline-block;
 }
 #hd > h1 > .hearts{
 	color:#FF0080;
